@@ -1,0 +1,6 @@
+{
+  "name": "PawConnect",
+  "description": "A compassionate pet adoption and rescue platform connecting loving families with verified shelters and adoptable pets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tertiary-fixed-dim: #95d4b3;
+  --color-tertiary: #2a674c;
+  --color-on-secondary-container: #6b4500;
+  --color-inverse-surface: #2b322f;
+  --color-tertiary-container: #448064;
+  --color-on-surface-variant: #59413a;
+  --color-surface-container-high: #e3eae5;
+  --color-on-secondary-fixed-variant: #633f00;
+  --color-on-tertiary: #ffffff;
+  --color-surface-variant: #dde4df;
+  --color-on-secondary-fixed: #291800;
+  --color-surface-dim: #d4dcd7;
+  --color-on-error-container: #93000a;
+  --color-on-primary-fixed-variant: #842500;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container: #e8f0ea;
+  --color-on-background: #161d1a;
+  --color-inverse-on-surface: #ebf2ed;
+  --color-on-primary: #ffffff;
+  --color-outline-variant: #e1bfb5;
+  --color-outline: #8d7168;
+  --color-primary-fixed-dim: #ffb59d;
+  --color-primary-container: #ca4a1c;
+  --color-surface-tint: #ab3504;
+  --color-on-primary-container: #fffbff;
+  --color-secondary-container: #fdae2f;
+  --color-on-surface: #161d1a;
+  --color-tertiary-fixed: #b1f0ce;
+  --color-secondary-fixed-dim: #ffb954;
+  --color-primary: #a83301;
+  --color-background: #f4fbf6;
+  --color-secondary-fixed: #ffddb4;
+  --color-primary-fixed: #ffdbd0;
+  --color-on-secondary: #ffffff;
+  --color-on-tertiary-fixed: #002114;
+  --color-surface-container-highest: #dde4df;
+  --color-on-error: #ffffff;
+  --color-on-primary-fixed: #390b00;
+  --color-surface: #f4fbf6;
+  --color-on-tertiary-container: #f5fff7;
+  --color-on-tertiary-fixed-variant: #0e5138;
+  --color-error: #ba1a1a;
+  --color-surface-container-low: #eef5f0;
+  --color-surface-bright: #f4fbf6;
+  --color-error-container: #ffdad6;
+  --color-secondary: #835500;
+  --color-inverse-primary: #ffb59d;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-sm: 1rem;
+  --spacing-margin: 2rem;
+  --spacing-margin-sm: 1rem;
+
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-title: 'Plus Jakarta Sans', sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #161d1a;
+    background-color: #f4fbf6;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill-1 {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
